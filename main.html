@@ -7,7 +7,107 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+<!-- Header -->
+  <div class="text-center py-5">
+    <h1 class="text-primary">Shopping cart</h1>
+    <p class="text-muted">
+      The customer is very important, the customer will be followed by the customer. 
+      Now, as an urn, I have no right to be in possession of property.
+    </p>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <!-- Product Listings (Left Column) -->
+      <div class="col-lg-8">
+        <div class="bg-white p-4">
+          <!-- Product 1 -->
+          <div class="product d-flex align-items-center mb-4" data-price="120">
+            <div class="me-3">
+              <img src="https://media.croma.com/image/upload/v1676996982/Croma%20Assets/Communication/Cases%20and%20Covers/Images/263689_0_gvkotp.png" class="img-fluid" alt="Product image">
+            </div>
+            <div class="flex-grow-1">
+              <h5 class="mb-1 text-primary">I am very sorry</h5>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="text-center ms-3">
+              <label class="form-label mb-0">Quantity:</label>
+              <input type="number" class="form-control quantity-input text-center mt-1" value="0" min="0" style="width: 70px;">
+            </div>
+            <div class="text-end ms-3" style="min-width: 80px;">
+              <span class="h5">$120</span>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="product d-flex align-items-center mb-4" data-price="120">
+            <div class="me-3">
+              <img src="https://media.croma.com/image/upload/v1676996982/Croma%20Assets/Communication/Cases%20and%20Covers/Images/263689_0_gvkotp.png" class="img-fluid" alt="Product image">
+            </div>
+            <div class="flex-grow-1">
+              <h5 class="mb-1 text-primary">I am very sorry</h5>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="text-center ms-3">
+              <label class="form-label mb-0">Quantity:</label>
+              <input type="number" class="form-control quantity-input text-center mt-1" value="1" min="0" style="width: 70px;">
+            </div>
+            <div class="text-end ms-3" style="min-width: 80px;">
+              <span class="h5">$120</span>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="product d-flex align-items-center mb-0" data-price="120">
+            <div class="me-3">
+              <img src="https://media.croma.com/image/upload/v1676996982/Croma%20Assets/Communication/Cases%20and%20Covers/Images/263689_0_gvkotp.png" class="img-fluid" alt="Product image">
+            </div>
+            <div class="flex-grow-1">
+              <h5 class="mb-1 text-primary">I am very sorry</h5>
+              <p class="mb-0">Display: 5 inches</p>
+              <p class="mb-0">RAM: 4GB</p>
+              <p class="mb-0">Memory: 32GB</p>
+            </div>
+            <div class="text-center ms-3">
+              <label class="form-label mb-0">Quantity:</label>
+              <input type="number" class="form-control quantity-input text-center mt-1" value="1" min="0" style="width: 70px;">
+            </div>
+            <div class="text-end ms-3" style="min-width: 80px;">
+              <span class="h5">$120</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary (Right Column) -->
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="summary p-4">
+          <h3 class="text-center">Summary</h3>
+          <div class="d-flex justify-content-between">
+            <span>Subtotal</span>
+            <span>$<span id="subtotal">0</span></span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Discount</span>
+            <span>$0</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Shipping</span>
+            <span>$0</span>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between fw-bold">
+            <span>Total</span>
+            <span>$<span id="total">0</span></span>
+          </div>
+          <button class="btn btn-primary w-100 mt-3">checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./script.js">
 </script>
 

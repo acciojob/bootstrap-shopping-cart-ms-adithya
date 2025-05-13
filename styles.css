@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+  background-color: #f8f9fa;
+}
+
+.text-primary {
+  color: #3b99e0 !important;
+}
+
+.product {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1rem;
+}
+.product:last-child {
+  border-bottom: none;
+}
+
+.summary {
+  background-color: #f7fbff;
+  border-top: 4px solid #5ea4f3;
+}
+
+.summary hr {
+  border-color: #e5e5e5;
+  margin: 0.5rem 0;
+}
+
+.btn-primary {
+  background-color: #3b99e0;
+  border-color: #3b99e0;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
